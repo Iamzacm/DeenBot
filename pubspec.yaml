@@ -1,6 +1,6 @@
 
 name: deenbot
-description: An Islamic chatbot app with multilingual support.
+description: An Islamic chatbot app with multilingual support
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -14,7 +14,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_localizations:
     sdk: flutter
-  intl: ^0.18.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +22,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/lang/en.json
     - assets/lang/hi.json
     - assets/lang/ur.json
     - assets/lang/ar.json
+    
